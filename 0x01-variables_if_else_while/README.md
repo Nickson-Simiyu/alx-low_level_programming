@@ -1,1 +1,1 @@
-program that prints all single digit numbers of base 10 starting
+program that prints the lowercase alphabet in reverse, followed by a new line
