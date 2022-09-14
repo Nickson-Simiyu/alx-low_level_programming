@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* rint_alphabet - Entry point
+*print_alphabet - Enty point
 *
-* Return: Always 0.
+*Return: Always 0.
 */
 
 void print_alphabet(void)
