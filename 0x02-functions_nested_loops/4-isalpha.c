@@ -8,7 +8,7 @@
 *Return:0 or 1 depeding on the condition
 */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
