@@ -21,7 +21,6 @@ void jack_bauer(void)
 				/*Restrain to 23h, not 29*/
 				a = 3;
 			}
-		}
 	h1 = 0;
 		while (h1 <= a)
 		{
@@ -43,6 +42,6 @@ void jack_bauer(void)
 			m2++;
 		}
 		h1++;
-	}
-	h2++;
+		}
+		h2++;
 }
