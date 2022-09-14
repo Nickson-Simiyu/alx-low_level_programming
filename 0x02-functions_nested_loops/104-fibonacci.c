@@ -43,6 +43,6 @@ int main(void)
 		aft2 = aft2 + bef2;
 		bef2 = aft2 - bef2;
 	}
-	_putchar('\n');
+_putchar('\n');
 	return (0);
 }
