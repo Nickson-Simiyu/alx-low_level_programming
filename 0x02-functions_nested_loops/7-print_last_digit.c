@@ -8,7 +8,7 @@
 *Return:0 or 1
 */
 
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	if (n < 0)
 		n = -n;
