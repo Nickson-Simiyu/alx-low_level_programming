@@ -23,17 +23,17 @@ void jack_bauer(void)
 				_putchar((i / 10) + '0');
 				_putchar((i % 10) + '0');
 			}
-			if (j < 10)
+			if (j < 60)
 			{
 				_putchar(':');
 				_putchar('0');
 				_putchar(j + '0');
 			}
-			else if (j >= 10)
+			else if (j >= 60)
 			{
 				_putchar(':');
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
+				_putchar((j / 60) + '0');
+				_putchar((j % 60) + '0');
 			}
 		}
 	}
