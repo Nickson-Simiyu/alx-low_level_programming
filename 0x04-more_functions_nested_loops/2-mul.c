@@ -3,7 +3,7 @@
 /**
 *mul- multiplies two integers
 *
-*@a: int to be multiplied to 
+*@a: int to be multiplied to
 *
 *@b: int to be multiplied to a
 *
