@@ -2,20 +2,20 @@
 
 /**
 *print_most_numbers- prints the numbers
+*
+*except 2 and 4, followed by a new line
 */
 
 void print_most_numbers(void)
 {
-	char n = 0;
+	int x;
 
-	while (n <= 9)
+	for (x = 0; x < 10; x++)
 	{
-		if (n != 2 && n != 4)
+		if (x != 2 && x != 4)
 		{
-			_putchar('0' + n);
+			_putchar('0' + x);
 		}
-
-		n++;
 	}
 	_putchar('\n');
 }
