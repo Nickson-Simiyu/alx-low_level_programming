@@ -8,17 +8,9 @@
 
 void print_numbers(void)
 {
-	char n = 0;
+	int x;
 
-	while (n <= 9)
-	{
-		if (n != 2 && n != 4)
-		{
-			_putchar('0' + n);
-		}
-
-		n++;
-
-	}
+	for (x = 0; x < 10; x++)
+		_putchar(x + '0');
 	_putchar('\n');
 }
