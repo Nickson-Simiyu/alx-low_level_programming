@@ -10,6 +10,7 @@
 */
 int linear_search(int *array, size_t size, int value)
 {
+	// Function implementation
 	int i;
 
 	if (array == NULL)
