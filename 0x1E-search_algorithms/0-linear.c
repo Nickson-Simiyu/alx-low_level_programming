@@ -1,8 +1,9 @@
 #include "search_algos.h"
 
 /**
-*Function to perform linear search
-*Searches for a value in an array of integers
+*linear_search - searches for a value in an array of
+* integers using the Linear search algorithm
+*
 * @array: input array
 * @size: size of the array
 * @value: value to search in
@@ -10,7 +11,6 @@
 */
 int linear_search(int *array, size_t size, int value)
 {
-	// Function implementation
 	int i;
 
 	if (array == NULL)
