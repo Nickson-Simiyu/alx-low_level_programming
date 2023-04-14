@@ -1,10 +1,12 @@
 #include "search_algos.h"
 
-/** Function to perform linear search
+/**
+*Function to perform linear search
 *Searches for a value in an array of integers
-* Returns the index of the first occurrence of the value, 
-* or -1 if not found or if array is NULL
-*prints each comparison during the search
+* @array: input array
+* @size: size of the array
+* @value: value to search in
+* Return: Always EXIT_SUCCESS
 */
 int linear_search(int *array, size_t size, int value)
 {
